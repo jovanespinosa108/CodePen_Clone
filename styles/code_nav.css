@@ -1,0 +1,129 @@
+.codepen-nav-wrapper {
+    height: 40px;
+    background-color: #111211;
+    color: #cbcbcb;
+    display: grid;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0px;
+    grid-template-columns: .5fr 2fr 2fr;
+}
+
+/* Left column styles */
+
+.codepen-nav-wrapper > .left-column > .codepen-image {
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+ 
+/* Center column styles */
+.codepen-nav-wrapper > .center-column {
+    justify-content: space-around;
+    letter-spacing: 2px;
+    padding-left: 0px;
+}
+
+.codepen-nav-wrapper > .center-column > .link-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 1.2em;
+    padding-right: 30px;
+}
+
+.codepen-nav-wrapper > .center-column > .link-wrapper > .nav-link > .explore-text p {
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    color: rgb(247, 208, 110);
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.codepen-nav-wrapper > .center-column > .link-wrapper > .nav-link > .pens-link {
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #cbcbcb
+}
+
+.codepen-nav-wrapper > .center-column > .link-wrapper > .nav-link {
+    width: 103px;
+    text-align: center;
+}
+
+.codepen-nav-wrapper > .center-column > .link-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration-style: bold;
+    text-decoration: none;
+}
+
+
+/* button column */
+.codepen-nav-wrapper > .button-wrapper {
+    display: flex;
+    grid-gap: 14px;
+    justify-content: flex-end;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .create-button {
+    font-size: .75em;
+    text-align: center;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 1px 12px;
+    width: 120px;
+    height: 60px;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .create-button i {
+    color: green;
+}
+
+.codepen-nav-wrapper > .button-wrapper a {
+    font-size: 2em;
+    padding: 10px;
+    color: grey;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .log-in-button {
+    font-size: .70em;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    width: 120px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .log-in-button a {
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 0px;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .sign-up-button {
+    font-size: .70em;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    width: 120px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.codepen-nav-wrapper > .button-wrapper > .sign-up-button a {
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 0px;
+}

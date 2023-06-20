@@ -1,0 +1,95 @@
+/* Page containre styles */
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    width: 1350px;
+    height: 542px;
+    background-color: #445055;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset -300px 0px 180px -80px rgba(0, 0, 0, .58);
+}
+
+.main-section > .left-section {
+    justify-content: left;
+    display: grid;
+    padding-left: 42px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-section > .left-section > .left-text {
+    font-size: 36px;
+}
+
+.main-section > .left-section > .left-text > .first-text {
+    color: whitesmoke;
+}
+
+.main-section > .left-section > .left-text > .second-text {
+    color: gray;
+}
+
+.main-section > .left-section > .main-button-wrapper {
+    display: grid;
+    grid-template-columns: .42fr .5fr;
+    padding: 48px 26px;
+    grid-gap: 1px;
+}
+
+.main-section > .left-section > .main-button-wrapper > .sign-up-free-btn {
+    background-color: rgb(46, 192, 119);
+    color: black;
+    padding: 0px 16px;
+    width: 233px;
+    border-radius: 3px;
+    margin-right: 9px;  
+}
+
+.main-section > .left-section > .main-button-wrapper > .learn-btn {
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 1px 12px;
+    width: 170px;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+.main-section > .right-section {
+    justify-content: left;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-section > .right-section > .right-text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 85px;
+    width: 300px;
+    height: 25px;
+}
+
+.main-section > .right-section > .right-text-wrapper > .white-text {
+    color: honeydew;
+    font-size: 1.1em;
+}
+
+.main-section > .right-section > .right-text-wrapper > .blue-text {
+    color: rgb(11, 131, 179);
+    font-size: 1.1em;
+    padding-left: 4px;
+}
+.main-section > .right-section > .right-image-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-section > .right-section > .right-image-section img {
+    width: 489px;
+    height: 88%;
+}
